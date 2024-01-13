@@ -1,0 +1,8 @@
+<library path="elevator_controller">
+  <class name="elevator_controller/ElevatorController"
+         type="elevator_controller::ElevatorController" base_class_type="controller_interface::ControllerInterface">
+  <description>
+    ElevatorController ros2_control controller.
+  </description>
+  </class>
+</library>

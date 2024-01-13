@@ -38,7 +38,7 @@ Package for simulating a differential type robot including ROS2 differential con
 ### Installation
 1. Clone the repo
    ```sh
-   git clone https://github.com/mefisto2017/Ranger-Mini-Project
+   git clone https://github.com/mefisto2017/checkpoint8
    ```
 2. Compile
    ```sh
@@ -62,12 +62,12 @@ ros2 topic pub --rate 10 /rb1_base_controller/cmd_vel_unstamped geometry_msgs/ms
 
 3. Lift the platform:
 ```sh
-ros2 topic pub --rate 10 /elevator_controller/commands std_msgs/g/Float64MultiArray  "data:
+ros2 topic pub --rate 10 /elevator_controller/commands std_msgs/msg/Float64MultiArray  "data:
 - 10.0"
 ```
 
 4. Lower the platform:
 ```sh
-ros2 topic pub --rate 10 /elevator_controller/commands std_msgs/g/Float64MultiArray  "data:
+ros2 topic pub --rate 10 /elevator_controller/commands std_msgs/msg/Float64MultiArray  "data:
 - -10.0"
 ```

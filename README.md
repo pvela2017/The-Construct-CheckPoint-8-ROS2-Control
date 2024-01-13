@@ -71,3 +71,9 @@ ros2 topic pub --rate 10 /elevator_controller/commands std_msgs/msg/Float64Multi
 ros2 topic pub --rate 10 /elevator_controller/commands std_msgs/msg/Float64MultiArray  "data:
 - -10.0"
 ```
+
+5. Check controllers and hardware interfaces:
+```sh
+ros2 control list_hardware_interfaces
+ros2 control list_controllers
+```

@@ -38,7 +38,7 @@ Package for simulating a differential type robot including ROS2 differential con
 ### Installation
 1. Clone the repo
    ```sh
-   git clone https://github.com/mefisto2017/checkpoint8
+   git clone https://github.com/pvela2017/checkpoint8
    ```
 2. Compile
    ```sh

@@ -69,6 +69,10 @@ ros2 control list_hardware_interfaces
 ros2 control list_controllers
 ```
 
+## Usage Robot Gazebo Plugin Type
+1. TODO
+
+
 <!-- KEYS -->
 ## Key topics learnt
 * ROS2 Controller.

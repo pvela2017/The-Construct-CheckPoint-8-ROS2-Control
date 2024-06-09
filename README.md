@@ -63,9 +63,13 @@ source ~/The-Construct-CheckPoint-8-ROS2-Control/ros2_ws_ros_controller_type/ins
 ros2 topic pub --rate 10 /elevator_controller/commands std_msgs/msg/Float64MultiArray  "data:
 - -10.0"
 ```
-
 5. Check controllers and hardware interfaces:
 ```sh
 ros2 control list_hardware_interfaces
 ros2 control list_controllers
 ```
+
+<!-- KEYS -->
+## Key topics learnt
+* ROS2 Controller.
+* Gazebo Plugin.

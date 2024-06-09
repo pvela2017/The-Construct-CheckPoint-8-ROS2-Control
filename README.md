@@ -36,7 +36,7 @@ Two approach are used as a Gazebo plugin or as ROS controller.
 
 
 <!-- USAGE of the ROBOT -->
-## Usage Robot ROS Controller type
+## Usage Robot ROS Controller Type
 1. Launch the simulation and activate the controllers:
 ```sh
 source /opt/ros/humble/setup.bash && \

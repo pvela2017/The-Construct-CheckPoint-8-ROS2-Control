@@ -74,6 +74,6 @@ ros2 control list_controllers
 
 
 <!-- KEYS -->
-## Key topics learnt
+## Key Topics Learnt
 * ROS2 Controller.
 * Gazebo Plugin.

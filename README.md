@@ -1,4 +1,4 @@
-# Checkpoint 8
+# Checkpoint 8 ROS2 Control
 
 <a name="readme-top"></a>
 
